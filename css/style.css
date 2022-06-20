@@ -1,0 +1,904 @@
+:root{
+    --dark-blue: rgb(33, 39, 65);
+    --green-chase: rgb(67, 186, 127);
+    --orange-o: rgb(255, 81, 26);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: var(--dark-blue);
+    
+}
+nav{
+    background-color: var(--dark-blue);
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav .iconify{
+    font-size: 50px;
+    display: block;
+    color: white;
+    margin: 0px 20px;
+}
+nav .sect{
+    display: none;
+}
+
+.home{
+    background-image: url('../img/slide-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.5rem;
+}
+.home .container{
+    color: white;
+    padding: 170px 10px;
+}
+.container h2{
+    font-size: 4rem;
+    text-align: center;
+}
+.container h2 span{
+    color: var(--orange-o);
+}
+.container .bar{
+    border-bottom: 1px solid;
+    margin: 0px 8rem;
+    margin-top: -41px;
+}
+.container .btn{
+    font-size: 18px;
+    margin: 48px 0px;
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    font-weight: bolder;
+    color: white;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.btn button:nth-child(1){
+    background-color: var(--green-chase);
+}
+.btn button{
+    background-color: var(--orange-o);
+}
+.services .container{
+    padding: 17px 10px;
+    
+}
+.container .box{
+    box-shadow: 5px 1px 13px grey;
+    border-radius: 9px;
+    padding: 1px 15px;
+    margin: 30px 0px;
+} 
+.box .srv{
+    display: flex;
+    font-size: 8rem;
+} 
+.srv .iconify{
+    color: var(--green-chase);
+} 
+.srv .text{
+    font-size: 22px;
+    margin-left: 13px;
+}   
+
+.text .p{
+    font-size: 44px;
+    margin: -17px 0px;
+} 
+.tec{
+    background-image: url('../img/heading-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tec .container{
+    padding: 1px 0px;
+}
+.tec .container h2{
+    font-size: 3rem;
+    width: 100%;
+    color: white;
+}
+.tec .container .s1{
+    color: var(--green-chase);
+}
+.about h3{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 28px;
+    color: var(--orange-o);
+}
+.about .p{
+    text-align: center;
+    font-size: 44px;
+    margin: -17px 0px;
+}
+.about .sections{
+    margin-left: -27px;
+}
+.sections ul{
+    list-style: none;
+    font-size: 25px;
+    margin-top: 80px;
+    list-style: none;
+}
+.sections ul li{
+    display: inline-block;
+    border: none;
+    padding: 15px 15px;
+    box-shadow: 1px 1px 9px 3px #b5b5b5;
+    margin: 0px 3px;
+}
+ul li:nth-child(1){
+    color: var(--orange-o);
+}
+
+.table{
+    font-size: 20px;
+}
+.table ul{
+    margin-left: -40px;
+}
+ul li{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    color: #8f8f8f;
+}
+li li:nth-child(1){
+    color: var(--green-chase);
+}
+.content .description{
+    margin: 0px 15px;
+    height: 100%;
+}
+.description h2{
+    font-weight: bold;
+    margin: 50px 0px;
+}
+.description p{
+    line-height: 28px;
+    margin: 32px 0px;
+}
+.content .description button{
+    font-weight: bolder;
+    color: white;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color: var(--green-chase);
+}
+
+.form{
+    background-image: url('../img/calculator-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.form h4{
+    color: var(--orange-o);
+    text-align: center;
+    padding-top: 49px;
+    font-size: 32px;
+}
+.form h2{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+.action_form img{
+    display: none;
+}
+.action_form form label{
+    color: white;
+    font-size: 25px;
+    margin: 0px 20px;
+    
+}
+form input, select, option{
+    width: -webkit-fill-available;
+    margin: 28px 15px;
+    height: 43px;
+    padding: 7px 5px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #5b5b6f;
+    border-radius: 8px;
+}
+form button{
+    font-weight: bolder;
+    color: white;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    background-color:var(--orange-o);
+    font-size: 28px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+.profil {
+    margin: 169px 37px;
+}
+.profil h3 {
+    text-align: center;
+    color: var(--orange-o);
+    font-weight: bold;
+    font-size: 20px;
+}
+.profil h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.profil .data {
+    border: 1px solid;
+}
+.data img {
+    width: 120px;
+    float: right;
+    border-radius: 8px;
+    margin: 40px 21px;
+}
+.data .iconify {
+    color: white;
+    background-color: var(--green-chase);
+    padding: 12px;
+    font-size: 43px;
+    position: absolute;
+    margin: 72px 38px;
+    border-radius: 8px;
+}
+.data p {
+    text-align: center;
+    margin-top: 15rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 37px 15px;
+}
+footer h3 {
+    text-align: center;
+    margin: 13px 11px;
+    line-height: 1.5;
+}
+footer h3 span {
+    color: var(--orange-o);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+    nav .iconify{
+        display: none;
+    }
+    nav .sect{
+        display: block;
+        margin: 0px 15px;
+    }
+    .sect ul{
+        list-style: none;
+    }
+    .sect ul li{
+        display: inline-block;
+    }
+    .sect ul li a{
+        margin: 0px 17px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .home .container {
+        color: white;
+        width: 36rem;
+        padding: 267px 10px;
+    }
+    .container h2{
+        text-align: initial;
+    }
+    .container .btn {
+        margin-left: -14rem;
+    }
+    .services {
+        margin: 0px 65px;
+    }
+    .container .box {
+        box-shadow: 4px 6px 8px grey;
+        border-radius: 9px;
+        padding: 1px 15px;
+        margin: 30px 0px;
+    }
+    .tec .container{
+        margin: 0px 163px;
+        text-align: center;
+    }
+    .tec .container h2{
+        text-align: center;
+        
+    }
+    .about h3{
+        font-size: 30px;
+    }
+    .about .p{
+        font-size: 44px;
+        margin: -17px 0px;
+    }
+    .sections ul{
+        list-style: none;
+    }
+    .sections ul li{
+        display: inline-block;
+    }
+    .table ul{
+        list-style: none;
+    }
+    .table ul li{
+        display: inline-block;
+    }
+    .home{
+        background-image: url('../img/slide-01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 47.5rem;
+    }
+    .home .container{
+        color: white;
+        padding: 170px 54px;
+    }
+    
+    .container h2 span{
+        color: var(--orange-o);
+    }
+    .container .bar{
+        border-bottom: 1px solid;
+        margin: 0px 8rem;
+        margin-top: -41px;
+    }
+    .btn button{
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+    }
+    .btn button:nth-child(1){
+        background-color: var(--green-chase);
+    }
+    .btn button{
+        background-color: var(--orange-o);
+    }
+    .services .container{
+        padding: 17px 10px;
+        
+    }
+    .container .box{
+        box-shadow: 5px 1px 13px grey;
+        border-radius: 9px;
+        padding: 1px 15px;
+        margin: 30px 0px;
+    } 
+    .box .srv{
+        display: flex;
+        font-size: 8rem;
+    } 
+    .srv .iconify{
+        color: var(--green-chase);
+    } 
+    .srv .text{
+        font-size: 22px;
+        margin-left: 13px;
+    } 
+    .text .p{
+        font-size: 44px;
+        margin: -17px 0px;
+    } 
+    .tec{
+        background-image: url('../img/heading-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tec .container{
+        padding: 1px 0px;
+    }
+    .tec .container h2{
+        font-size: 3rem;
+        width: 100%;
+        color: white;
+    }
+    .tec .container .s1{
+        color: var(--green-chase);
+    }
+    
+    .about h3{
+        padding-top: 80px;
+        text-align: center;
+        font-size: 28px;
+        color: var(--orange-o);
+    }
+    .about .p{
+        text-align: center;
+        font-size: 44px;
+        margin: -17px 0px;
+    }
+    .about .sections{
+        margin-left: -27px;
+    }
+    .sections ul{
+        list-style: none;
+        font-size: 25px;
+        margin-top: 80px;
+        list-style: none;
+    }
+    .sections ul li{
+        display: inline-block;
+        border: none;
+        padding: 15px 15px;
+        box-shadow: 1px 1px 9px 3px #b5b5b5;
+        margin: 0px 3px;
+    }
+    ul li:nth-child(1){
+        color: var(--orange-o);
+    }
+    
+    .table{
+        font-size: 20px;
+    }
+    .table ul{
+        margin-left: -40px;
+    }
+    ul li{
+        list-style: none;
+    }
+    ul li{
+        display: inline-block;
+        color: #8f8f8f;
+    }
+    ul li:nth-child(1) {
+        font-size: 20px;
+    }
+    ul li:nth-child(2) {
+        font-size: 20px;
+    }
+    ul li:nth-child(3) {
+        font-size: 20px;
+    }
+    .content .description{
+        margin: 0px 15px;
+        height: 100%;
+    }
+    .description h2{
+        font-weight: bold;
+        margin: 50px 0px;
+    }
+    .description p{
+        line-height: 28px;
+        margin: 32px 0px;
+    }
+    .content .description button{
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        background-color: var(--green-chase);
+    }
+    
+    .form {
+        padding: 0px 55px;
+    }
+    .form h4 {
+        text-align: inherit;
+        margin-left: 15px;
+    }
+    .form h2 {
+        text-align: inherit;
+        margin-left: 15px;
+    }
+    .profil h3 {
+        text-align: center;
+        color: var(--orange-o);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .profil h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    .profil .data {
+        border: 1px solid;
+    }
+    .data img {
+        width: 120px;
+        float: right;
+        border-radius: 8px;
+        margin: 40px 21px;
+    }
+    .data img {
+        width: 200px;
+        margin: 17px 38px;
+    }
+    .data p {
+        text-align: inherit;
+        margin: 133px 40px;
+    }
+    .data .iconify {
+        margin: 18px 38px;
+    }
+    
+    footer {
+        margin: -117px 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:992px){
+    nav{
+        justify-content: space-around;
+    }
+    .home{
+        
+        padding: 0px 9rem;
+    }
+    .services{
+        padding: 60px 146px;
+    }
+    .services .container{
+        padding: 5px 0px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+    .container .box{
+        margin: 15px 15px;
+    }
+    .tec .container{
+        padding: 1px 0px;
+        display: flex;
+    }
+    .tec .container h2{
+        text-align: start;
+        font-size: 3rem;
+        width: 50%;
+        color: white;
+    }
+    .tec .container h2{
+        
+    }
+    .tec .container .s1{
+        color: var(--green-chase);
+    }
+    .about{
+
+    }
+    .about h3{
+        
+    }
+    .about h2{
+        
+    }
+    .about .sections{
+        
+    }
+    .sections ul{
+        
+        list-style: none;
+
+    }
+    .sections ul li{
+        display: inline-block;
+    }
+    ul li:nth-child(1){
+        
+    }
+    .table{
+    
+    }
+    .table ul{
+        list-style: none;
+    }
+    ul li{
+        display: inline-block;
+        
+    }
+    
+    .content .description{
+        
+    }
+    .action_form{
+        display: flex;
+        align-items: center;
+    }
+    .action_form img{
+        display: block;
+        width: 37rem;
+        margin: 0px 171px;
+        height: 37rem;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media(min-width:1200px){
+
+}
