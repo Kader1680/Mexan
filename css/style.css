@@ -31,7 +31,9 @@ nav .iconify{
 nav .sect{
     display: none;
 }
-
+nav .sect button{
+    display: none;
+}
 .home{
     background-image: url('../img/slide-01.jpg');
     background-repeat: no-repeat;
@@ -249,18 +251,13 @@ form button{
     font-weight: bold;
     font-size: 2.5rem;
 }
-
-
-.profil .data {
-    border: 1px solid;
-}
 .data img {
     width: 120px;
     float: right;
     border-radius: 8px;
     margin: 40px 21px;
 }
-.data .iconify {
+.data i{
     color: white;
     background-color: var(--green-chase);
     padding: 12px;
@@ -407,7 +404,7 @@ footer h3 span {
         margin: 0px 17px;
         color: white;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 14px;
     }
     .home .container {
         color: white;
@@ -629,26 +626,31 @@ footer h3 span {
         font-size: 2.5rem;
     }
     .profil .data {
-        border: 1px solid;
+        width: 45rem;
+        box-shadow: 0px 9px 12px 0px #a7a4a4;
+        margin: 0px auto;
+        height: 24rem;
     }
     .data img {
-        width: 120px;
-        float: right;
-        border-radius: 8px;
-        margin: 40px 21px;
+        margin: 70px 60px;
+        width: 27%;
     }
-    .data img {
-        width: 200px;
-        margin: 17px 38px;
-    }
-    .data p {
+    .data p:nth-child(1){
         text-align: inherit;
         margin: 133px 40px;
+        padding-top: 7rem;
     }
-    .data .iconify {
+    .data p:nth-child(2){
+        
+    }
+    .data i{
         margin: 18px 38px;
     }
-    
+    .data h3 {
+        text-align: start;
+        margin: -111px 40px;
+        color: var(--dark-blue);
+    }
     footer {
         margin: -117px 0px;
     }
@@ -720,6 +722,23 @@ footer h3 span {
     nav{
         justify-content: space-around;
         padding: 0px;
+    }
+    nav .sect{
+        display: flex;
+        align-items: center;
+    }
+    nav .sect button{
+        font-size: 12px;
+        display: block;
+        font-weight: 400;
+        color: white;
+        border: none;
+        width: 128px;
+        height: 2rem;
+        padding: 0px 14px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        background-color: var(--green-chase);
     }
     .home{
         
@@ -1011,11 +1030,6 @@ footer h3 span {
         font-weight: bold;
         font-size: 2.5rem;
     }
-    
-    
-    .profil .data {
-        border: 1px solid;
-    }
     .data img {
         width: 120px;
         float: right;
@@ -1153,19 +1167,6 @@ footer h3 span {
 
 
     @media(min-width:1200px){
-        nav{
-            
-        }
-        nav .logo{
-            
-        }
-        nav .sect{
-            
-        }
-        .home .container{
-            color: white;
-            padding: 170px 10px;
-        }
         .container h2{
             text-align: start;
         }
@@ -1200,10 +1201,7 @@ footer h3 span {
             
         }
         .container .box{
-            box-shadow: 5px 1px 13px grey;
-            border-radius: 9px;
-            padding: 1px 15px;
-            margin: 30px 0px;
+            margin: 14px 12px;
         } 
         .box .srv{
             display: flex;
@@ -1374,11 +1372,6 @@ footer h3 span {
             font-weight: bold;
             font-size: 2.5rem;
         }
-        
-        
-        .profil .data {
-            border: 1px solid;
-        }
         .data img {
             width: 120px;
             float: right;
@@ -1386,19 +1379,19 @@ footer h3 span {
             margin: 40px 21px;
         }
         .data .iconify {
-            color: white;
-            background-color: var(--green-chase);
-            padding: 12px;
-            font-size: 43px;
-            position: absolute;
-            margin: 72px 38px;
-            border-radius: 8px;
+            font-size: 30px;
+        }
+        .data h3{
+            font-size: 22px;
+            text-align: start;
+            margin: 0px 3rem;
+            color: var(--dark-blue);
         }
         .data p {
-            text-align: center;
-            margin-top: 15rem;
-            margin-left: 50px;
-            margin-right: 50px;
+            text-align: start;
+            margin-top: 2rem;
+            font-size: 16px;
+            line-height: 26px;
         }
         footer {
             background-color: var(--dark-blue);
