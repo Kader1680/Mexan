@@ -2,12 +2,14 @@
     --dark-blue: rgb(33, 39, 65);
     --green-chase: rgb(67, 186, 127);
     --orange-o: rgb(255, 81, 26);
+    --font-familly: 'Poppins', sans-serif;
 }
 body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     color: var(--dark-blue);
+    font-family: var(--font-familly);
     
 }
 nav{
@@ -717,6 +719,7 @@ footer h3 span {
 @media(min-width:992px){
     nav{
         justify-content: space-around;
+        padding: 0px;
     }
     .home{
         
@@ -796,6 +799,256 @@ footer h3 span {
         width: 37rem;
         margin: 0px 171px;
         height: 37rem;
+    }
+    .home .container{
+        color: white;
+        padding: 170px 10px;
+    }
+    .container h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    .container h2 span{
+        color: var(--orange-o);
+    }
+    .container .bar{
+        border-bottom: 1px solid;
+        margin: 0px 8rem;
+        margin-top: -41px;
+    }
+    .container .btn{
+        font-size: 18px;
+        margin: 48px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .btn button{
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+    }
+    .btn button:nth-child(1){
+        background-color: var(--green-chase);
+    }
+    .btn button{
+        background-color: var(--orange-o);
+    }
+    .services .container{
+        padding: 17px 10px;
+        
+    }
+    .container .box{
+        box-shadow: 5px 1px 13px grey;
+        border-radius: 9px;
+        padding: 1px 15px;
+        margin: 30px 0px;
+    } 
+    .box .srv{
+        display: flex;
+        font-size: 8rem;
+    } 
+    .srv .iconify{
+        color: var(--green-chase);
+    } 
+    .srv .text{
+        font-size: 22px;
+        margin-left: 13px;
+    }   
+    
+    .text .p{
+        font-size: 44px;
+        margin: -17px 0px;
+    } 
+    .tec{
+        background-image: url('../img/heading-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tec .container{
+        padding: 1px 0px;
+    }
+    .tec .container h2{
+        font-size: 3rem;
+        width: 100%;
+        color: white;
+    }
+    .tec .container .s1{
+        color: var(--green-chase);
+    }
+    .about h3{
+        padding-top: 80px;
+        text-align: center;
+        font-size: 28px;
+        color: var(--orange-o);
+    }
+    .about .p{
+        text-align: center;
+        font-size: 44px;
+        margin: -17px 0px;
+    }
+    .about .sections{
+        margin-left: -27px;
+    }
+    .sections ul{
+        list-style: none;
+        font-size: 25px;
+        margin-top: 80px;
+        list-style: none;
+    }
+    .sections ul li{
+        display: inline-block;
+        border: none;
+        padding: 15px 15px;
+        box-shadow: 1px 1px 9px 3px #b5b5b5;
+        margin: 0px 3px;
+    }
+    ul li:nth-child(1){
+        color: var(--orange-o);
+    }
+    
+    .table{
+        font-size: 20px;
+    }
+    .table ul{
+        margin-left: -40px;
+    }
+    ul li{
+        list-style: none;
+    }
+    ul li{
+        display: inline-block;
+        color: #8f8f8f;
+    }
+    li li:nth-child(1){
+        color: var(--green-chase);
+    }
+    .content .description{
+        margin: 0px 15px;
+        height: 100%;
+    }
+    .description h2{
+        font-weight: bold;
+        margin: 50px 0px;
+    }
+    .description p{
+        line-height: 28px;
+        margin: 32px 0px;
+    }
+    .content .description button{
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        background-color: var(--green-chase);
+    }
+    
+    .form{
+        background-image: url('../img/calculator-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    .form h4{
+        color: var(--orange-o);
+        text-align: center;
+        padding-top: 49px;
+        font-size: 32px;
+    }
+    .form h2{
+        color: white;
+        text-align: center;
+        font-size: 48px;
+    }
+    .action_form img{
+        display: none;
+    }
+    .action_form form label{
+        color: white;
+        font-size: 25px;
+        margin: 0px 20px;
+        
+    }
+    form input, select, option{
+        width: -webkit-fill-available;
+        margin: 28px 15px;
+        height: 43px;
+        padding: 7px 5px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: #5b5b6f;
+        border-radius: 8px;
+    }
+    form button{
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        background-color:var(--orange-o);
+        font-size: 28px;
+        margin-top: 3px;
+        margin-bottom: 30px;
+    }
+    
+    .profil {
+        margin: 169px 37px;
+    }
+    .profil h3 {
+        text-align: center;
+        color: var(--orange-o);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .profil h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    
+    
+    .profil .data {
+        border: 1px solid;
+    }
+    .data img {
+        width: 120px;
+        float: right;
+        border-radius: 8px;
+        margin: 40px 21px;
+    }
+    .data .iconify {
+        color: white;
+        background-color: var(--green-chase);
+        padding: 12px;
+        font-size: 43px;
+        position: absolute;
+        margin: 72px 38px;
+        border-radius: 8px;
+    }
+    .data p {
+        text-align: center;
+        margin-top: 15rem;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    footer {
+        background-color: var(--dark-blue);
+        color: white;
+        padding: 37px 15px;
+    }
+    footer h3 {
+        text-align: center;
+        margin: 13px 11px;
+        line-height: 1.5;
+    }
+    footer h3 span {
+        color: var(--orange-o);
     }
 
 
@@ -900,5 +1153,264 @@ footer h3 span {
 
 
     @media(min-width:1200px){
+        nav{
+            
+        }
+        nav .logo{
+            
+        }
+        nav .sect{
+            
+        }
+        .home .container{
+            color: white;
+            padding: 170px 10px;
+        }
+        .container h2{
+            text-align: start;
+        }
+        .container h2 span{
+            color: var(--orange-o);
+        }
+        .container .bar{
+            
+            margin: 0px 7px;
+            width: 30rem;
 
+        }
+        .container .btn{
+            display: block;
+        }
+        .btn button{
+            font-weight: bolder;
+            color: white;
+            border: none;
+            padding: 11px 24px;
+            border-radius: 5px;
+            margin: 0px 10px;
+        }
+        .btn button:nth-child(1){
+            background-color: var(--green-chase);
+        }
+        .btn button{
+            background-color: var(--orange-o);
+        }
+        .services .container{
+            padding: 17px 10px;
+            
+        }
+        .container .box{
+            box-shadow: 5px 1px 13px grey;
+            border-radius: 9px;
+            padding: 1px 15px;
+            margin: 30px 0px;
+        } 
+        .box .srv{
+            display: flex;
+            font-size: 8rem;
+        } 
+        .srv .iconify{
+            color: var(--green-chase);
+        } 
+        .srv .text{
+            font-size: 22px;
+            margin-left: 13px;
+        }   
+        .text h3{
+            font-size: 22px;
+            font-weight: 600;
+        } 
+        .text p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        } 
+        .tec{
+            background-image: url('../img/heading-bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .tec .container{
+            padding: 1px 0px;
+        }
+        .tec .container h2{
+            font-size: 3rem;
+            width: 100%;
+            color: white;
+        }
+        .tec .container .s1{
+            color: var(--green-chase);
+        }
+        .about h3{
+            padding-top: 80px;
+            text-align: center;
+            font-size: 28px;
+            color: var(--orange-o);
+        }
+        .about .p{
+            text-align: center;
+            font-size: 44px;
+            margin: -17px 0px;
+        }
+        .about .sections{
+            margin-left: -27px;
+        }
+        .sections ul{
+            list-style: none;
+            font-size: 25px;
+            margin-top: 80px;
+            list-style: none;
+        }
+        .sections ul li{
+            display: inline-block;
+            border: none;
+            padding: 15px 15px;
+            box-shadow: 1px 1px 9px 3px #b5b5b5;
+            margin: 0px 3px;
+        }
+        ul li:nth-child(1){
+            color: var(--orange-o);
+        }
+        
+        .table{
+            font-size: 20px;
+        }
+        .table ul{
+            margin-left: -40px;
+        }
+        ul li{
+            list-style: none;
+        }
+        ul li{
+            display: inline-block;
+            color: #8f8f8f;
+        }
+        li li:nth-child(1){
+            color: var(--green-chase);
+        }
+        .content .description{
+            margin: 0px 15px;
+            height: 100%;
+        }
+        .description h2{
+            font-weight: bold;
+            margin: 50px 0px;
+        }
+        .description p{
+            line-height: 28px;
+            margin: 32px 0px;
+        }
+        .content .description button{
+            font-weight: bolder;
+            color: white;
+            border: none;
+            padding: 11px 24px;
+            border-radius: 5px;
+            margin: 0px 10px;
+            background-color: var(--green-chase);
+        }
+        
+        .form{
+            background-image: url('../img/calculator-bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .form h4{
+            color: var(--orange-o);
+            text-align: center;
+            padding-top: 49px;
+            font-size: 32px;
+        }
+        .form h2{
+            color: white;
+            text-align: center;
+            font-size: 48px;
+        }
+        .action_form img{
+            display: none;
+        }
+        .action_form form label{
+            color: white;
+            font-size: 25px;
+            margin: 0px 20px;
+            
+        }
+        form input, select, option{
+            width: -webkit-fill-available;
+            margin: 28px 15px;
+            height: 43px;
+            padding: 7px 5px;
+            outline: none;
+            border: none;
+            color: white;
+            background-color: #5b5b6f;
+            border-radius: 8px;
+        }
+        form button{
+            font-weight: bolder;
+            color: white;
+            border: none;
+            padding: 11px 24px;
+            border-radius: 5px;
+            margin: 0px 10px;
+            background-color:var(--orange-o);
+            font-size: 28px;
+            margin-top: 3px;
+            margin-bottom: 30px;
+        }
+        
+        .profil {
+            margin: 169px 37px;
+        }
+        .profil h3 {
+            text-align: center;
+            color: var(--orange-o);
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .profil h2 {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.5rem;
+        }
+        
+        
+        .profil .data {
+            border: 1px solid;
+        }
+        .data img {
+            width: 120px;
+            float: right;
+            border-radius: 8px;
+            margin: 40px 21px;
+        }
+        .data .iconify {
+            color: white;
+            background-color: var(--green-chase);
+            padding: 12px;
+            font-size: 43px;
+            position: absolute;
+            margin: 72px 38px;
+            border-radius: 8px;
+        }
+        .data p {
+            text-align: center;
+            margin-top: 15rem;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        footer {
+            background-color: var(--dark-blue);
+            color: white;
+            padding: 37px 15px;
+        }
+        footer h3 {
+            text-align: center;
+            margin: 13px 11px;
+            line-height: 1.5;
+        }
+        footer h3 span {
+            color: var(--orange-o);
+        }
 }
