@@ -13,6 +13,7 @@ body{
     
 }
 nav{
+    z-index: 1;
     background-color: var(--dark-blue);
     padding: 11px;
     display: flex;
@@ -81,7 +82,7 @@ nav .sect button{
     
 }
 .container .box{
-    box-shadow: 5px 1px 13px grey;
+    box-shadow: 0px 1px 0px 1px #d7d3d3;
     border-radius: 9px;
     padding: 1px 15px;
     margin: 30px 0px;
@@ -90,8 +91,18 @@ nav .sect button{
     display: flex;
     font-size: 8rem;
 } 
+.srv h3{
+    font-size: 22px;
+    font-weight: 700;
+} 
+.srv p{
+    font-size: 15px;
+    line-height: 24px;
+} 
 .srv .iconify{
     color: var(--green-chase);
+    font-size: 191px;
+    margin: -29px -1px;
 } 
 .srv .text{
     font-size: 22px;
@@ -251,11 +262,21 @@ form button{
     font-weight: bold;
     font-size: 2.5rem;
 }
+.data{
+    width: 19rem;
+    height: 30rem;
+    box-shadow: 1px 1px 9px 3px #b5b5b5;
+
+}
 .data img {
     width: 120px;
     float: right;
     border-radius: 8px;
     margin: 40px 21px;
+}
+.data .funct{
+    color: var(--green-chase);
+    margin-top: -14rem;
 }
 .data i{
     color: white;
@@ -267,10 +288,17 @@ form button{
     border-radius: 8px;
 }
 .data p {
-    text-align: center;
-    margin-top: 15rem;
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: start;
+    padding-top: 14rem;
+    padding-left: 1rem;
+    margin: -2px 20px;
+    line-height: 26px;
+}
+.data h3{
+    text-align: start;
+    color: var(--dark-blue);
+    font-size: 20px;
+    margin-left: 2.1rem;
 }
 footer {
     background-color: var(--dark-blue);
