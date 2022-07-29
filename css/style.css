@@ -491,25 +491,27 @@ footer h3 span {
         
     }
     .container .box{
-        box-shadow: 5px 1px 13px grey;
-        border-radius: 9px;
-        padding: 1px 15px;
-        margin: 30px 0px;
+        box-shadow: 0px 1px 0px 1px #d7d3d3;
     } 
     .box .srv{
-        display: flex;
-        font-size: 8rem;
+        padding: 20px 30px;
     } 
     .srv .iconify{
-        color: var(--green-chase);
+        font-size: 64px;
+        margin-top: 1rem;
     } 
     .srv .text{
         font-size: 22px;
         margin-left: 13px;
     } 
-    .text .p{
-        font-size: 44px;
-        margin: -17px 0px;
+    .text h3{
+        font-size: 22px;
+        font-weight: bold;
+    } 
+    .text p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
     } 
     .tec{
         background-image: url('../img/heading-bg.jpg');
@@ -517,7 +519,11 @@ footer h3 span {
         background-size: cover;
     }
     .tec .container{
-        padding: 1px 0px;
+        margin: 0px auto;
+    }
+    .tec .btn.BTN{
+        margin: 0px auto;
+        margin-bottom: 3rem;
     }
     .tec .container h2{
         font-size: 3rem;
@@ -628,20 +634,24 @@ footer h3 span {
     .profil .data {
         width: 45rem;
         box-shadow: 0px 9px 12px 0px #a7a4a4;
-        margin: 0px auto;
         height: 24rem;
+        margin: 0rem auto;
+        height: 24rem;
+        margin-bottom: 6rem;
     }
     .data img {
         margin: 70px 60px;
         width: 27%;
     }
-    .data p:nth-child(1){
+    .data p{
         text-align: inherit;
         margin: 133px 40px;
         padding-top: 7rem;
+        line-height: 27px;
     }
-    .data p:nth-child(2){
-        
+    .data .funct{
+        color: var(--green-chase);
+        margin: 16px 40px;
     }
     .data i{
         margin: 18px 38px;
@@ -748,9 +758,7 @@ footer h3 span {
         padding: 60px 146px;
     }
     .services .container{
-        padding: 5px 0px;
-        display: grid;
-        grid-template-columns: 50% 50%;
+        display: block;
 
     }
     .container .box{
@@ -850,21 +858,11 @@ footer h3 span {
         margin: 0px 10px;
     }
     .btn button:nth-child(1){
-        background-color: var(--green-chase);
+        height: 45px;
     }
     .btn button{
-        background-color: var(--orange-o);
+        height: 45px;
     }
-    .services .container{
-        padding: 17px 10px;
-        
-    }
-    .container .box{
-        box-shadow: 5px 1px 13px grey;
-        border-radius: 9px;
-        padding: 1px 15px;
-        margin: 30px 0px;
-    } 
     .box .srv{
         display: flex;
         font-size: 8rem;
@@ -887,12 +885,13 @@ footer h3 span {
         background-size: cover;
     }
     .tec .container{
-        padding: 1px 0px;
+        align-items: end;
+        padding: 50px 0px;
     }
     .tec .container h2{
-        font-size: 3rem;
-        width: 100%;
-        color: white;
+        font-size: 36px;
+        font-weight: 700;
+        margin-left: 2rem;
     }
     .tec .container .s1{
         color: var(--green-chase);
@@ -973,57 +972,38 @@ footer h3 span {
         height: 100%;
     }
     .form h4{
-        color: var(--orange-o);
         text-align: center;
-        padding-top: 49px;
-        font-size: 32px;
+        font-size: 16px;
     }
     .form h2{
-        color: white;
         text-align: center;
-        font-size: 48px;
+        font-size: 36px;
     }
     .action_form img{
         display: none;
     }
     .action_form form label{
-        color: white;
-        font-size: 25px;
-        margin: 0px 20px;
-        
+        font-size: 14px;
+        font-weight: 400;
+    }
+    form input{
+        width: 122%;
+        height: 20px;
+        margin: 10px 18px;
     }
     form input, select, option{
         width: -webkit-fill-available;
-        margin: 28px 15px;
-        height: 43px;
-        padding: 7px 5px;
-        outline: none;
-        border: none;
-        color: white;
-        background-color: #5b5b6f;
-        border-radius: 8px;
     }
     form button{
-        font-weight: bolder;
-        color: white;
-        border: none;
-        padding: 11px 24px;
-        border-radius: 5px;
-        margin: 0px 10px;
-        background-color:var(--orange-o);
-        font-size: 28px;
-        margin-top: 3px;
-        margin-bottom: 30px;
+        margin-left: 1rem;
+        font-weight: 200;
+        font-size: 20px;
     }
-    
     .profil {
         margin: 169px 37px;
     }
     .profil h3 {
-        text-align: center;
         color: var(--orange-o);
-        font-weight: bold;
-        font-size: 20px;
     }
     .profil h2 {
         text-align: center;
@@ -1031,10 +1011,9 @@ footer h3 span {
         font-size: 2.5rem;
     }
     .data img {
-        width: 120px;
-        float: right;
-        border-radius: 8px;
-        margin: 40px 21px;
+        width: 254px;
+        height: 100%;
+        margin: 0px 0px;
     }
     .data .iconify {
         color: white;
@@ -1044,12 +1023,6 @@ footer h3 span {
         position: absolute;
         margin: 72px 38px;
         border-radius: 8px;
-    }
-    .data p {
-        text-align: center;
-        margin-top: 15rem;
-        margin-left: 50px;
-        margin-right: 50px;
     }
     footer {
         background-color: var(--dark-blue);
@@ -1169,18 +1142,19 @@ footer h3 span {
     @media(min-width:1200px){
         .container h2{
             text-align: start;
+            margin-left: -3rem;
+            width: 125%;
+
         }
         .container h2 span{
             color: var(--orange-o);
         }
-        .container .bar{
-            
-            margin: 0px 7px;
-            width: 30rem;
-
+        .container .bar {
+            margin: 0px -40px;
         }
         .container .btn{
-            display: block;
+            margin-left: -18rem;
+
         }
         .btn button{
             font-weight: bolder;
@@ -1191,10 +1165,12 @@ footer h3 span {
             margin: 0px 10px;
         }
         .btn button:nth-child(1){
-            background-color: var(--green-chase);
+            height: 100%;
+            width: 12rem;
         }
         .btn button{
-            background-color: var(--orange-o);
+            height: 100%;
+            width: 10rem;
         }
         .services .container{
             padding: 17px 10px;
@@ -1229,12 +1205,12 @@ footer h3 span {
             background-size: cover;
         }
         .tec .container{
-            padding: 1px 0px;
+            padding: 15px 140px;
         }
         .tec .container h2{
-            font-size: 3rem;
+            font-size: 33px;
             width: 100%;
-            color: white;
+            margin-left: -49px;
         }
         .tec .container .s1{
             color: var(--green-chase);
@@ -1326,7 +1302,9 @@ footer h3 span {
             font-size: 48px;
         }
         .action_form img{
-            display: none;
+            display: block;
+            width: 38rem;
+            margin: 0px 49px;
         }
         .action_form form label{
             color: white;
@@ -1361,6 +1339,9 @@ footer h3 span {
         .profil {
             margin: 169px 37px;
         }
+        .profil .data {
+            height: 19rem;
+        }
         .profil h3 {
             text-align: center;
             color: var(--orange-o);
@@ -1373,18 +1354,13 @@ footer h3 span {
             font-size: 2.5rem;
         }
         .data img {
-            width: 120px;
-            float: right;
-            border-radius: 8px;
-            margin: 40px 21px;
+            width: 180px;
         }
         .data .iconify {
             font-size: 30px;
         }
         .data h3{
-            font-size: 22px;
             text-align: start;
-            margin: 0px 3rem;
             color: var(--dark-blue);
         }
         .data p {
