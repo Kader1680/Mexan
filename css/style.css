@@ -755,11 +755,14 @@ footer h3 span {
         padding: 0px 9rem;
     }
     .services{
-        padding: 60px 146px;
+        width: 57rem;
+        margin-left: 0rem;
+        
     }
     .services .container{
-        display: block;
-
+        display: grid;
+        grid-template-columns: 55% 55%;
+        
     }
     .container .box{
         margin: 15px 15px;
@@ -1172,8 +1175,14 @@ footer h3 span {
             height: 100%;
             width: 10rem;
         }
+        .services{
+            width: 57rem;
+            margin-left: -3rem;
+            
+        }
         .services .container{
-            padding: 17px 10px;
+            display: grid;
+            grid-template-columns: 59% 59%;
             
         }
         .container .box{
