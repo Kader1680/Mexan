@@ -153,28 +153,86 @@ nav .sect button{
     display: inline-block;
     border: none;
     padding: 15px 15px;
-    box-shadow: 1px 1px 9px 3px #b5b5b5;
+    box-shadow: 0px 1px 0px 1px #d7d3d3;
+
     margin: 0px 3px;
 }
-ul li:nth-child(1){
-    color: var(--orange-o);
-}
+
 
 .table{
-    font-size: 20px;
+    color: var(--dark-blue);
 }
 .table ul{
     margin-left: -40px;
+    color: var(--dark-blue);
+
+}
+/* UL===> 1 */
+.table .ul1{
+}
+.ul1 li:nth-child(1){
+    color: var(--green-chase);
+    width: 0rem;
+}
+.ul1 li:nth-child(2){
+    margin-left: 5rem;
+}
+.ul1 li:nth-child(3){
+}
+.ul1 li:nth-child(4){
+    width: 5rem;
+}
+.ul2 li:nth-child(2){
+    width: 2rem;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+.ul3 li:nth-child(2){
+    width: 2rem;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+.ul4 li:nth-child(2){
+    width: 2rem;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+.ul5 li:nth-child(2){
+    width: 2rem;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+/* UL===> 2 */
+
+.table .ul2{
+}
+/* UL===> 3 */
+
+.table .ul3{
+}
+/* UL===> 4 */
+
+.table .ul4{
+}
+/* UL===> 5 */
+
+.table .ul5{
 }
 ul li{
     list-style: none;
+    margin: 20px 10px;
 }
 ul li{
     display: inline-block;
     color: #8f8f8f;
 }
-li li:nth-child(1){
-    color: var(--green-chase);
+ul li:nth-child(1){
+    
+    
 }
 .content .description{
     margin: 0px 15px;
@@ -415,6 +473,7 @@ footer h3 span {
 
 
 @media(min-width:768px){
+    
     nav .iconify{
         display: none;
     }
@@ -423,7 +482,8 @@ footer h3 span {
         margin: 0px 15px;
     }
     .sect ul{
-        list-style: none;
+        display: flex;
+        padding: 0px;
     }
     .sect ul li{
         display: inline-block;
@@ -577,17 +637,12 @@ footer h3 span {
         margin-left: -27px;
     }
     .sections ul{
-        list-style: none;
-        font-size: 25px;
-        margin-top: 80px;
-        list-style: none;
+        
     }
     .sections ul li{
-        display: inline-block;
-        border: none;
-        padding: 15px 15px;
-        box-shadow: 1px 1px 9px 3px #b5b5b5;
-        margin: 0px 3px;
+        width: 8rem;
+        text-align: center;
+        padding: 11px;
     }
     ul li:nth-child(1){
         color: var(--orange-o);
