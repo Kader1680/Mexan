@@ -32,6 +32,30 @@ nav .iconify{
 nav .sect{
     display: none;
 }
+nav .sect.list{
+    background-color: white;
+    display: block;
+    position: absolute;
+    top: 6.7rem;
+    right: 0;
+    z-index: 5;
+    height: 21rem;
+    width: 50%;
+}
+nav .sect.list ul{
+    display: grid;
+}
+nav .sect.list ul li:hover{
+    background-color: var(--dark-blue);
+    color: white;
+}
+nav .sect.list ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--dark-blue);
+    margin: -18px;
+}
 nav .sect button{
     display: none;
 }
@@ -1430,6 +1454,12 @@ footer h3 span {
         
         .profil {
             margin: 169px 37px;
+        }
+        .profil .slider{
+
+        }
+        .slider .data{
+
         }
         .profil .data {
             height: 19rem;
