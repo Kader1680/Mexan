@@ -4,6 +4,11 @@
     --orange-o: rgb(255, 81, 26);
     --font-familly: 'Poppins', sans-serif;
 }
+.a{
+    z-index: 5;
+    color: white;
+    position: absolute;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -31,23 +36,37 @@ nav .iconify{
 }
 nav .sect{
     display: none;
+
+}
+.sect h2{
+
+    margin: 29px 17px;
+    font-size: 2rem;
+}
+.sect .close{
+    position: absolute;
+    color: var(--dark-blue);
+    top: 28px;
+    right: 18px;
+    font-size: 35px;
+    box-shadow: 1px 1px 11px 3px #cdcdcd;
+
 }
 nav .sect.list{
     background-color: white;
     display: block;
     position: absolute;
-    top: 6.7rem;
+    top: -0.3rem;
     right: 0;
     z-index: 5;
-    height: 21rem;
+    height: 26rem;
     width: 50%;
 }
 nav .sect.list ul{
     display: grid;
 }
 nav .sect.list ul li:hover{
-    background-color: var(--dark-blue);
-    color: white;
+    
 }
 nav .sect.list ul li a{
     font-size: 18px;
@@ -55,6 +74,14 @@ nav .sect.list ul li a{
     font-weight: 600;
     color: var(--dark-blue);
     margin: -18px;
+}
+nav .sect.list ul li a:hover{
+    background-color: var(--dark-blue);
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    
+    
 }
 nav .sect button{
     display: none;
@@ -505,6 +532,9 @@ footer h3 span {
         display: block;
         margin: 0px 15px;
     }
+    .sect h2{
+        display: none;
+    }
     .sect ul{
         display: flex;
         padding: 0px;
@@ -517,6 +547,9 @@ footer h3 span {
         color: white;
         text-decoration: none;
         font-size: 14px;
+    }
+    .sect ul li a i{
+        display: none;
     }
     .home .container {
         color: white;
