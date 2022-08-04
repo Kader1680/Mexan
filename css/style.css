@@ -75,6 +75,13 @@ nav .sect.list ul li a{
     color: var(--dark-blue);
     margin: -18px;
 }
+nav .sect.list ul li a .service, .about{
+    position: absolute;
+    color: var(--dark-blue);
+    top: 166px;
+    font-size: 30px;
+    left: 8px;
+}
 nav .sect.list ul li a:hover{
     background-color: var(--dark-blue);
     color: white;
