@@ -17,6 +17,23 @@ body{
     font-family: var(--font-familly);
     
 }
+.loading{
+    /* position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: block; */
+}
+.loading img{
+    /* position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    display: block; */
+}
+.loading .activ{
+    /* display: none; */
+}
 nav{
     z-index: 1;
     background-color: var(--dark-blue);
@@ -563,6 +580,24 @@ footer h3 span {
     .sect ul li{
         display: inline-block;
     }
+    .sect ul li a:hover{
+        color: var(--dark-blue);
+        background-color: white;
+        transition: .7s;
+        -webkit-transition: .7s;
+        -moz-transition: .7s;
+        -ms-transition: .7s;
+        -o-transition: .7s;
+        padding: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .sect ul i{
+        display: none;
+    }
     nav .sect.list{
         background-color: white;
         /* display: block; */
@@ -576,26 +611,7 @@ footer h3 span {
     nav .sect.list ul{
         margin: -10px -20px;
     }
-    nav .sect.list ul li{
-        color: var(--dark-blue);
-        color: white;
-        transition: 0.8s;
-        -webkit-transition: 0.8s;
-        -moz-transition: 0.8s;
-        -ms-transition: 0.8s;
-        -o-transition: 0.8s;
-    }
-    nav .sect.list ul li:hover{
-        color: var(--dark-blue);
-        background-color: white;
-        margin-left: 10px;
-    }
-    nav .sect.list ul li a{
-        
-    }
-    nav .list ul li i{
-        display: none;
-    }
+    
     .sect ul li a{
         margin: 0px 17px;
         color: white;

@@ -15,3 +15,19 @@ bar.addEventListener('click', ()=>{
         sect.classList.remove('list')
     }
 })
+
+// Loading Section
+
+// let gif = document.querySelectorAll('.loading img');
+// let active = document.querySelector('.active');
+
+
+// window.onload = ()=>{
+//     gif.classList.remove('activ')
+// }
+
+
+
+
+
+
