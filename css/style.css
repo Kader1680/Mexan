@@ -63,18 +63,31 @@ nav .sect.list{
     width: 50%;
 }
 nav .sect.list ul{
-    display: grid;
+    margin: -10px -20px;
+}
+nav .sect.list ul li{
+    color: var(--dark-blue);
+    color: white;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
 }
 nav .sect.list ul li:hover{
-    
+    color: var(--dark-blue);
+    background-color: white;
+    margin-left: 10px;
 }
 nav .sect.list ul li a{
-    font-size: 18px;
     text-decoration: none;
-    font-weight: 600;
-    color: var(--dark-blue);
-    margin: -18px;
 }
+nav .sect.list ul li i{
+    margin-right: 15px;
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+
 nav .sect.list ul li a .service, .about{
     position: absolute;
     color: var(--dark-blue);
@@ -549,6 +562,39 @@ footer h3 span {
     }
     .sect ul li{
         display: inline-block;
+    }
+    nav .sect.list{
+        background-color: white;
+        /* display: block; */
+        position: absolute;
+        top: -0.3rem;
+        right: 0;
+        z-index: 5;
+        height: 26rem;
+        width: 50%;
+    }
+    nav .sect.list ul{
+        margin: -10px -20px;
+    }
+    nav .sect.list ul li{
+        color: var(--dark-blue);
+        color: white;
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+    }
+    nav .sect.list ul li:hover{
+        color: var(--dark-blue);
+        background-color: white;
+        margin-left: 10px;
+    }
+    nav .sect.list ul li a{
+        
+    }
+    nav .list ul li i{
+        display: none;
     }
     .sect ul li a{
         margin: 0px 17px;
