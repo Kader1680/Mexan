@@ -415,6 +415,15 @@ form button{
     margin-bottom: 3rem;
 
 }
+.profil .slider{
+    display: flex;
+}
+.slider .data{
+
+}
+.profil .data {
+    height: 19rem;
+}
 .data img {
     width: 120px;
     float: right;
@@ -1559,7 +1568,7 @@ footer h3 span {
             margin: 169px 37px;
         }
         .profil .slider{
-
+            display: flex;
         }
         .slider .data{
 
