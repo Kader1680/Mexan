@@ -134,8 +134,10 @@ nav .sect button{
     padding: 7rem 0rem 1rem 0rem;
 }
 .container h2{
-    font-size: 4rem;
     text-align: center;
+    width: 71%;
+    font-size: 36px;
+    margin: 57px auto;
 }
 .container h2 span{
     color: var(--orange-o);
@@ -415,15 +417,30 @@ form button{
     margin-bottom: 3rem;
 
 }
-.profil .slider{
-    display: flex;
-}
-.slider .data{
-
+.profil .slider {
+    margin: 0px auto;
+    width: 100%;
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-columns: 100% 100% 100%;
+    animation: Slider 10s +2 infinite;
+    -webkit-animation: Slider 10s infinite;
 }
 .profil .data {
-    height: 19rem;
+    height: 33rem;
 }
+
+@keyframes Slider {
+    0% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
+    10% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
+    20% { transform:translateX(-200%) ; -webkit-transform:translateX(-200%) ; -moz-transform:translateX(-200%) ; -ms-transform:translateX(-200%) ; -o-transform:translateX(-200%) ; }
+    30% { transform:translateX(-200%) ; -webkit-transform:translateX(-200%) ; -moz-transform:translateX(-200%) ; -ms-transform:translateX(-200%) ; -o-transform:translateX(-200%) ; }
+    40% { transform:translateX(-200%) ; -webkit-transform:translateX(-200%) ; -moz-transform:translateX(-200%) ; -ms-transform:translateX(-200%) ; -o-transform:translateX(-200%) ; }
+    50% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
+    60% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
+    80% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
+}
+
 .data img {
     width: 120px;
     float: right;
