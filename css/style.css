@@ -395,7 +395,9 @@ form button{
     margin-top: 3px;
     margin-bottom: 30px;
 }
-
+.global{
+    overflow: hidden;
+}
 .profil {
     margin: 169px 37px;
 }
@@ -420,10 +422,10 @@ form button{
 .profil .slider {
     margin: 0px auto;
     width: 100%;
-    /* overflow: hidden; */
-    display: grid;
-    grid-template-columns: 100% 100% 100%;
-    animation: Slider 10s +2 infinite;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 100% 100% 100%; */
+    animation: Slider 10s infinite;
     -webkit-animation: Slider 10s infinite;
 }
 .profil .data {
@@ -440,34 +442,40 @@ form button{
     60% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
     80% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
 }
-
-.data img {
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.data .heading img {
     width: 120px;
     float: right;
     border-radius: 8px;
     margin: 40px 21px;
 }
-.data .funct{
-    color: var(--green-chase);
-    margin-top: -14rem;
-}
-.data i{
+.data .heading i {
     color: white;
     background-color: var(--green-chase);
     padding: 12px;
     font-size: 43px;
-    position: absolute;
     margin: 72px 38px;
     border-radius: 8px;
 }
-.data p {
+.information .funct{
+    color: var(--green-chase);
+    margin-top: -14rem;
+}
+.information{
+    margin: -14rem 0px;
+}
+.information p {
     text-align: start;
     padding-top: 14rem;
     padding-left: 1rem;
     margin: -2px 20px;
     line-height: 26px;
 }
-.data h3{
+.information h3{
     text-align: start;
     color: var(--dark-blue);
     font-size: 20px;
@@ -866,6 +874,14 @@ footer h3 span {
         text-align: center;
         font-weight: bold;
         font-size: 2.5rem;
+    }
+    .profil .slider {
+        margin: 0px auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100% 100% 100%;
+        animation: Slider 10s +2 infinite;
+        -webkit-animation: Slider 10s infinite;
     }
     .profil .data {
         width: 45rem;
@@ -1585,13 +1601,15 @@ footer h3 span {
             margin: 169px 37px;
         }
         .profil .slider{
-            display: flex;
+            display: grid;
+            grid-template-columns: 100% 100% 80%;
+            width: 90%;
+            overflow: hidden;
         }
-        .slider .data{
 
-        }
         .profil .data {
             height: 19rem;
+            width: 50rem;
         }
         .profil h3 {
             text-align: center;
@@ -1613,10 +1631,11 @@ footer h3 span {
         .data h3{
             text-align: start;
             color: var(--dark-blue);
+            margin-left: 50px;
         }
         .data p {
             text-align: start;
-            margin-top: 2rem;
+            margin-top: 0rem;
             font-size: 16px;
             line-height: 26px;
         }
