@@ -26,7 +26,22 @@ bar.addEventListener('click', ()=>{
 //     gif.classList.remove('activ')
 // }
 
+// ------------ Scroll to the top 
 
+let span = document.querySelector('.Top')
+let topblk = document.querySelector('.blk')
+
+window.onscroll = () =>  {
+    console.log(this.scrollY)
+
+    if (this.scrollY >= 1577) {
+        span.classList.add('blk')
+    } else {
+        span.classList.remove('blk')
+        
+    }
+    
+}
 
 
 
