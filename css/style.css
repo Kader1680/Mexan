@@ -909,6 +909,15 @@ footer h3 span {
         height: 24rem;
         margin-bottom: 6rem;
     }
+    .information {
+    margin: -18rem 0px;
+    width: 36rem;
+    }
+    .data .heading i {
+        
+        left: 71px;
+        position: absolute;
+    }
     .data img {
         margin: 70px 60px;
         width: 27%;
@@ -928,8 +937,8 @@ footer h3 span {
     }
     .data h3 {
         text-align: start;
-        margin: -111px 40px;
-        color: var(--dark-blue);
+        margin: -111px 53px;
+        color: var(--orange-o);
     }
     footer {
         margin: -117px 0px;
@@ -1298,8 +1307,11 @@ footer h3 span {
     .data .heading{
         display: block;
     }
+    .data .heading i {
+    left: 11rem;
+    }
     .data .information {
-    margin: -16rem 0px;
+    margin: -2rem 0px;
     width: 37rem;
     }
     .data p {
@@ -1649,10 +1661,10 @@ footer h3 span {
         height: 26rem;
         width: 50rem;
         }
-        .data .information {
-        margin: -16rem 0px;
+        /*.data .information {
+        margin: -2rem 0px;
         width: 39rem;
-        }
+        }*/
         .profil h3 {
             text-align: center;
             color: var(--orange-o);
@@ -1670,11 +1682,11 @@ footer h3 span {
         .data .iconify {
             font-size: 30px;
         }
+        .data .heading i {
+            left: 16rem;
+        }
         .data .heading img {
             width: 200px;
-            /*float: right;
-            border-radius: 8px;
-            margin: 40px 21px;*/
         }
         .data h3 {
             text-align: start;
