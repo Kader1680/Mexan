@@ -448,7 +448,7 @@ form button{
     height: 33rem;
 }
 
-@keyframes Slider {
+@keyframes Slxider {
     0% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
     10% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
     20% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
@@ -1277,6 +1277,9 @@ footer h3 span {
     }
     .profil h3 {
         color: var(--orange-o);
+        top: 18px;
+        left: 14px;
+        position: relative;
     }
     .profil h2 {
         text-align: center;
@@ -1287,6 +1290,23 @@ footer h3 span {
         width: 254px;
         height: 100%;
         margin: 0px 0px;
+    }
+    .data .funct {
+    color: var(--green-chase);
+    margin: 40px 40px;
+    }
+    .data .heading{
+        display: block;
+    }
+    .data .information {
+    margin: -16rem 0px;
+    width: 37rem;
+    }
+    .data p {
+    text-align: inherit;
+    margin: 100px 40px;
+    padding-top: 7rem;
+    line-height: 27px;
     }
     .data .iconify {
         color: white;
@@ -1626,8 +1646,12 @@ footer h3 span {
         }
 
         .profil .data {
-            height: 19rem;
-            width: 50rem;
+        height: 26rem;
+        width: 50rem;
+        }
+        .data .information {
+        margin: -16rem 0px;
+        width: 39rem;
         }
         .profil h3 {
             text-align: center;
@@ -1646,14 +1670,21 @@ footer h3 span {
         .data .iconify {
             font-size: 30px;
         }
-        .data h3{
+        .data .heading img {
+            width: 200px;
+            /*float: right;
+            border-radius: 8px;
+            margin: 40px 21px;*/
+        }
+        .data h3 {
             text-align: start;
-            color: var(--dark-blue);
-            margin-left: 50px;
+            color: var(--orange-o);
+            margin-left: 42px;
+            margin-top: -100px;
         }
         .data p {
             text-align: start;
-            margin-top: 0rem;
+            margin-top: 6rem;
             font-size: 16px;
             line-height: 26px;
         }
