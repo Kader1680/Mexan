@@ -42,3 +42,10 @@ window.onscroll = () => {
     }
 
 }
+top.addEventListener('click', move)
+function move() {
+    scrollTo({
+        top:0,
+        behavior:"smooth"
+    })
+}
