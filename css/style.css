@@ -1,23 +1,25 @@
-:root{
+:root {
     --dark-blue: rgb(33, 39, 65);
     --green-chase: rgb(67, 186, 127);
     --orange-o: rgb(255, 81, 26);
     --font-familly: 'Poppins', sans-serif;
 }
-.a{
+
+.a {
     z-index: 5;
     color: white;
     position: absolute;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     color: var(--dark-blue);
     font-family: var(--font-familly);
-    
 }
-.Top{
+
+.Top {
     position: fixed;
     right: -53px;
     top: 34rem;
@@ -29,28 +31,32 @@ body{
     border: 1px solid wheat;
     transition: .5s;
 }
-.Top.blk{
+
+.Top.blk {
     right: 10px;
-    
 }
-.loading{
+
+.loading {
     /* position: fixed;
     width: 100%;
     height: 100%;
     z-index: 3;
     display: block; */
 }
-.loading img{
+
+.loading img {
     /* position: fixed;
     width: 100%;
     height: 100%;
     z-index: 4;
     display: block; */
-} 
-.loading .activ{
+}
+
+.loading .activ {
     /* display: none; */
 }
-nav{
+
+nav {
     z-index: 1;
     background-color: var(--dark-blue);
     padding: 11px;
@@ -61,31 +67,33 @@ nav{
     width: 100%;
     top: 0;
 }
-nav .iconify{
+
+nav .iconify {
     font-size: 50px;
     display: block;
     color: white;
     margin: 0px 20px;
 }
-nav .sect{
+
+nav .sect {
     display: none;
-
 }
-.sect h2{
 
+.sect h2 {
     margin: 29px 17px;
     font-size: 2rem;
 }
-.sect .close{
+
+.sect .close {
     position: absolute;
     color: var(--dark-blue);
     top: 28px;
     right: 18px;
     font-size: 35px;
     box-shadow: 1px 1px 11px 3px #cdcdcd;
-
 }
-nav .sect.list{
+
+nav .sect.list {
     background-color: white;
     display: block;
     position: absolute;
@@ -95,10 +103,12 @@ nav .sect.list{
     height: 26rem;
     width: 50%;
 }
-nav .sect.list ul{
+
+nav .sect.list ul {
     margin: -10px -20px;
 }
-nav .sect.list ul li{
+
+nav .sect.list ul li {
     color: var(--dark-blue);
     color: white;
     transition: 0.8s;
@@ -107,69 +117,79 @@ nav .sect.list ul li{
     -ms-transition: 0.8s;
     -o-transition: 0.8s;
 }
-nav .sect.list ul li:hover{
+
+nav .sect.list ul li:hover {
     color: var(--dark-blue);
     background-color: white;
     margin-left: 10px;
 }
-nav .sect.list ul li a{
+
+nav .sect.list ul li a {
     text-decoration: none;
 }
-nav .sect.list ul li i{
+
+nav .sect.list ul li i {
     margin-right: 15px;
     font-size: 20px;
     color: var(--dark-blue);
 }
 
-nav .sect.list ul li a .service, .about{
+nav .sect.list ul li a .service,
+.about {
     position: absolute;
     color: var(--dark-blue);
     top: 166px;
     font-size: 30px;
     left: 8px;
 }
-nav .sect.list ul li a:hover{
+
+nav .sect.list ul li a:hover {
     background-color: var(--dark-blue);
     color: white;
     width: 100%;
     padding: 12px 20px;
-    
-    
 }
-nav .sect button{
+
+nav .sect button {
     display: none;
 }
-.home{
+
+.home {
     background-image: url('../img/slide-01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
-.home .container{
+
+.home .container {
     color: white;
     padding: 7rem 0rem 1rem 0rem;
 }
-.container h2{
+
+.container h2 {
     text-align: center;
     width: 71%;
     font-size: 36px;
     margin: 57px auto;
 }
-.container h2 span{
+
+.container h2 span {
     color: var(--orange-o);
 }
-.container .bar{
+
+.container .bar {
     border-bottom: 1px solid;
     margin: 0px 8rem;
     margin-top: -41px;
 }
-.container .btn{
+
+.container .btn {
     font-size: 18px;
     margin: 48px 0px;
     display: flex;
     justify-content: center;
 }
-.btn button{
+
+.btn button {
     font-weight: bolder;
     color: white;
     border: none;
@@ -177,182 +197,214 @@ nav .sect button{
     border-radius: 5px;
     margin: 0px 10px;
 }
-.btn button:nth-child(1){
+
+.btn button:nth-child(1) {
     background-color: var(--green-chase);
 }
-.btn button{
+
+.btn button {
     background-color: var(--orange-o);
 }
-.services .container{
+
+.services .container {
     padding: 17px 10px;
-    
 }
-.container .box{
+
+.container .box {
     box-shadow: 0px 1px 0px 1px #d7d3d3;
     border-radius: 9px;
     padding: 1px 15px;
     margin: 30px 0px;
-} 
-.box .srv{
+}
+
+.box .srv {
     display: flex;
     font-size: 8rem;
-} 
-.srv h3{
+}
+
+.srv h3 {
     font-size: 22px;
     font-weight: 700;
-} 
-.srv p{
+}
+
+.srv p {
     font-size: 15px;
     line-height: 24px;
-} 
-.srv .iconify{
+}
+
+.srv .iconify {
     color: var(--green-chase);
     font-size: 140px;
     margin: -14px -1px;
-} 
-.srv .text{
+}
+
+.srv .text {
     font-size: 22px;
     margin-left: 13px;
-}   
+}
 
-.text .p{
+.text .p {
     font-size: 44px;
     margin: -17px 0px;
-} 
-.tec{
+}
+
+.tec {
     background-image: url('../img/heading-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.tec .container{
+
+.tec .container {
     padding: 1px 0px;
 }
-.tec .container h2{
+
+.tec .container h2 {
     font-size: 3rem;
     width: 100%;
     color: white;
 }
-.tec .container .s1{
+
+.tec .container .s1 {
     color: var(--green-chase);
 }
-.about h3{
+
+.about h3 {
     padding-top: 80px;
     text-align: center;
     font-size: 28px;
     color: var(--orange-o);
 }
-.about .p{
+
+.about .p {
     text-align: center;
     font-size: 44px;
     margin: -17px 0px;
 }
-.about .sections{
+
+.about .sections {
     margin-left: -27px;
 }
-.sections ul{
+
+.sections ul {
     list-style: none;
     font-size: 25px;
     margin-top: 80px;
     list-style: none;
 }
-.sections ul li{
+
+.sections ul li {
     display: inline-block;
     border: none;
     padding: 15px 15px;
     box-shadow: 0px 1px 0px 1px #d7d3d3;
-
     margin: 0px 3px;
 }
 
-
-.table{
+.table {
     color: var(--dark-blue);
 }
-.table ul{
+
+.table ul {
     margin-left: -40px;
     color: var(--dark-blue);
+}
 
-}
+
 /* UL===> 1 */
-.table .ul1{
-}
-.ul1 li:nth-child(1){
+
+.table .ul1 {}
+
+.ul1 li:nth-child(1) {
     color: var(--green-chase);
     width: 0rem;
 }
-.ul1 li:nth-child(2){
+
+.ul1 li:nth-child(2) {
     margin-left: 5rem;
 }
-.ul1 li:nth-child(3){
-}
-.ul1 li:nth-child(4){
+
+.ul1 li:nth-child(3) {}
+
+.ul1 li:nth-child(4) {
     width: 5rem;
 }
-.ul2 li:nth-child(2){
+
+.ul2 li:nth-child(2) {
     width: 2rem;
     text-align: center;
     font-size: 13px;
     line-height: 15px;
 }
-.ul3 li:nth-child(2){
+
+.ul3 li:nth-child(2) {
     width: 2rem;
     text-align: center;
     font-size: 13px;
     line-height: 15px;
 }
-.ul4 li:nth-child(2){
+
+.ul4 li:nth-child(2) {
     width: 2rem;
     text-align: center;
     font-size: 13px;
     line-height: 15px;
 }
-.ul5 li:nth-child(2){
+
+.ul5 li:nth-child(2) {
     width: 2rem;
     text-align: center;
     font-size: 13px;
     line-height: 15px;
 }
+
+
 /* UL===> 2 */
 
-.table .ul2{
-}
+.table .ul2 {}
+
+
 /* UL===> 3 */
 
-.table .ul3{
-}
+.table .ul3 {}
+
+
 /* UL===> 4 */
 
-.table .ul4{
-}
+.table .ul4 {}
+
+
 /* UL===> 5 */
 
-.table .ul5{
-}
-ul li{
+.table .ul5 {}
+
+ul li {
     list-style: none;
     margin: 20px 10px;
 }
-ul li{
+
+ul li {
     display: inline-block;
     color: #8f8f8f;
 }
-ul li:nth-child(1){
-    
-    
-}
-.content .description{
+
+ul li:nth-child(1) {}
+
+.content .description {
     margin: 0px 15px;
     height: 100%;
 }
-.description h2{
+
+.description h2 {
     font-weight: bold;
     margin: 50px 0px;
 }
-.description p{
+
+.description p {
     line-height: 28px;
     margin: 32px 0px;
 }
-.content .description button{
+
+.content .description button {
     font-weight: bolder;
     color: white;
     border: none;
@@ -362,33 +414,39 @@ ul li:nth-child(1){
     background-color: var(--green-chase);
 }
 
-.form{
+.form {
     background-image: url('../img/calculator-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
 }
-.form h4{
+
+.form h4 {
     color: var(--orange-o);
     text-align: center;
     padding-top: 49px;
     font-size: 25px;
 }
-.form h2{
+
+.form h2 {
     color: white;
     text-align: center;
     font-size: 30px;
 }
-.action_form img{
+
+.action_form img {
     display: none;
 }
-.action_form form label{
+
+.action_form form label {
     color: white;
     font-size: 25px;
     margin: 0px 20px;
-    
 }
-form input, select, option{
+
+form input,
+select,
+option {
     width: -webkit-fill-available;
     margin: 28px 15px;
     height: 43px;
@@ -399,7 +457,8 @@ form input, select, option{
     background-color: #5b5b6f;
     border-radius: 8px;
 }
-form button{
+
+form button {
     font-weight: 400;
     color: white;
     border: none;
@@ -411,30 +470,35 @@ form button{
     margin-top: 3px;
     margin-bottom: 30px;
 }
-.global{
+
+.global {
     overflow: hidden;
 }
+
 .profil {
     margin: 169px 37px;
 }
+
 .profil h3 {
     text-align: center;
     color: var(--orange-o);
     font-weight: bold;
     font-size: 20px;
 }
+
 .profil h2 {
     text-align: center;
     font-weight: bold;
     font-size: 2.5rem;
 }
-.data{
+
+.data {
     width: 100%;
     height: 30rem;
     box-shadow: 1px 1px 9px 3px #b5b5b5;
     margin-bottom: 3rem;
-
 }
+
 .profil .slider {
     margin: 0px auto;
     width: 100%;
@@ -444,33 +508,97 @@ form button{
     animation: Slider 10s infinite;
     -webkit-animation: Slider 10s infinite;
 }
+
 .profil .data {
     height: 33rem;
 }
 
 @keyframes Slxider {
-    0% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
-    10% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
-    20% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
-    30% { transform:translateX(-200%) ; -webkit-transform:translateX(-200%) ; -moz-transform:translateX(-200%) ; -ms-transform:translateX(-200%) ; -o-transform:translateX(-200%) ; }
-    40% { transform:translateX(-200%) ; -webkit-transform:translateX(-200%) ; -moz-transform:translateX(-200%) ; -ms-transform:translateX(-200%) ; -o-transform:translateX(-200%) ; }
-    50% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
-    60% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
-    80% { transform:translateX(-100%) ; -webkit-transform:translateX(-100%) ; -moz-transform:translateX(-100%) ; -ms-transform:translateX(-100%) ; -o-transform:translateX(-100%) ; }
-    90% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
-    100% { transform:translateX(0%) ; -webkit-transform:translateX(0%) ; -moz-transform:translateX(0%) ; -ms-transform:translateX(0%) ; -o-transform:translateX(0%) ; }
+    0% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+    10% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+    20% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+    30% {
+        transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -moz-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        -o-transform: translateX(-200%);
+    }
+    40% {
+        transform: translateX(-200%);
+        -webkit-transform: translateX(-200%);
+        -moz-transform: translateX(-200%);
+        -ms-transform: translateX(-200%);
+        -o-transform: translateX(-200%);
+    }
+    50% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+    60% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+    80% {
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+    }
+    90% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
 }
+
 .heading {
     display: flex;
     align-items: center;
     justify-content: end;
 }
+
 .data .heading img {
     width: 120px;
     float: right;
     border-radius: 8px;
     margin: 40px 21px;
 }
+
 .data .heading i {
     color: white;
     background-color: var(--green-chase);
@@ -479,13 +607,16 @@ form button{
     margin: 72px 38px;
     border-radius: 8px;
 }
-.information .funct{
+
+.information .funct {
     color: var(--green-chase);
     margin-top: -14rem;
 }
-.information{
+
+.information {
     margin: -14rem 0px;
 }
+
 .information p {
     text-align: start;
     padding-top: 14rem;
@@ -493,146 +624,49 @@ form button{
     margin: -2px 20px;
     line-height: 26px;
 }
-.information h3{
+
+.information h3 {
     text-align: start;
     color: var(--dark-blue);
     font-size: 20px;
     margin-left: 2.1rem;
 }
+
 footer {
     background-color: var(--dark-blue);
     color: white;
     padding: 37px 15px;
 }
+
 footer h3 {
     text-align: center;
     margin: 13px 11px;
     line-height: 1.5;
 }
+
 footer h3 span {
     color: var(--orange-o);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:768px){
-    
-    nav .iconify{
+@media(min-width:768px) {
+    nav .iconify {
         display: none;
     }
-    nav .sect{
+    nav .sect {
         display: block;
         margin: 0px 15px;
     }
-    .sect h2{
+    .sect h2 {
         display: none;
     }
-    .sect ul{
+    .sect ul {
         display: flex;
         padding: 0px;
     }
-    .sect ul li{
+    .sect ul li {
         display: inline-block;
     }
-    .sect ul li a:hover{
+    .sect ul li a:hover {
         color: var(--dark-blue);
         background-color: white;
         transition: .7s;
@@ -646,11 +680,11 @@ footer h3 span {
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
-}
-    .sect ul i{
+    }
+    .sect ul i {
         display: none;
     }
-    nav .sect.list{
+    nav .sect.list {
         background-color: white;
         /* display: block; */
         position: absolute;
@@ -660,17 +694,16 @@ footer h3 span {
         height: 26rem;
         width: 50%;
     }
-    nav .sect.list ul{
+    nav .sect.list ul {
         margin: -10px -20px;
     }
-    
-    .sect ul li a{
+    .sect ul li a {
         margin: 0px 17px;
         color: white;
         text-decoration: none;
         font-size: 14px;
     }
-    .sect ul li a i{
+    .sect ul li a i {
         display: none;
     }
     .home .container {
@@ -678,7 +711,7 @@ footer h3 span {
         width: 36rem;
         padding: 267px 10px;
     }
-    .container h2{
+    .container h2 {
         text-align: initial;
     }
     .container .btn {
@@ -693,53 +726,51 @@ footer h3 span {
         padding: 1px 15px;
         margin: 30px 0px;
     }
-    .tec .container{
+    .tec .container {
         margin: 0px 163px;
         text-align: center;
     }
-    .tec .container h2{
+    .tec .container h2 {
         text-align: center;
-        
     }
-    .about h3{
+    .about h3 {
         font-size: 30px;
     }
-    .about .p{
+    .about .p {
         font-size: 44px;
         margin: -17px 0px;
     }
-    .sections ul{
+    .sections ul {
         list-style: none;
     }
-    .sections ul li{
+    .sections ul li {
         display: inline-block;
     }
-    .table ul{
+    .table ul {
         list-style: none;
     }
-    .table ul li{
+    .table ul li {
         display: inline-block;
     }
-    .home{
+    .home {
         background-image: url('../img/slide-01.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 47.5rem;
     }
-    .home .container{
+    .home .container {
         color: white;
         padding: 170px 54px;
     }
-    
-    .container h2 span{
+    .container h2 span {
         color: var(--orange-o);
     }
-    .container .bar{
+    .container .bar {
         border-bottom: 1px solid;
         margin: 0px 8rem;
         margin-top: -41px;
     }
-    .btn button{
+    .btn button {
         font-weight: bolder;
         color: white;
         border: none;
@@ -747,96 +778,91 @@ footer h3 span {
         border-radius: 5px;
         margin: 0px 10px;
     }
-    .btn button:nth-child(1){
+    .btn button:nth-child(1) {
         background-color: var(--green-chase);
     }
-    .btn button{
+    .btn button {
         background-color: var(--orange-o);
     }
-    .services .container{
+    .services .container {
         padding: 17px 10px;
-        
     }
-    .container .box{
+    .container .box {
         box-shadow: 0px 1px 0px 1px #d7d3d3;
-    } 
-    .box .srv{
+    }
+    .box .srv {
         padding: 20px 30px;
-    } 
-    .srv .iconify{
+    }
+    .srv .iconify {
         font-size: 64px;
         margin-top: 1rem;
-    } 
-    .srv .text{
+    }
+    .srv .text {
         font-size: 22px;
         margin-left: 13px;
-    } 
-    .text h3{
+    }
+    .text h3 {
         font-size: 22px;
         font-weight: bold;
-    } 
-    .text p{
+    }
+    .text p {
         font-size: 15px;
         font-weight: 400;
         line-height: 24px;
-    } 
-    .tec{
+    }
+    .tec {
         background-image: url('../img/heading-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .tec .container{
+    .tec .container {
         margin: 0px auto;
     }
-    .tec .btn.BTN{
+    .tec .btn.BTN {
         margin: 0px auto;
         margin-bottom: 3rem;
     }
-    .tec .container h2{
+    .tec .container h2 {
         font-size: 3rem;
         width: 100%;
         color: white;
     }
-    .tec .container .s1{
+    .tec .container .s1 {
         color: var(--green-chase);
     }
-    
-    .about h3{
+    .about h3 {
         padding-top: 80px;
         text-align: center;
         font-size: 28px;
         color: var(--orange-o);
     }
-    .about .p{
+    .about .p {
         text-align: center;
         font-size: 44px;
         margin: -17px 0px;
     }
-    .about .sections{
+    .about .sections {
         margin-left: -27px;
     }
-    .sections ul{
-        
-    }
-    .sections ul li{
+    .sections ul {}
+    .sections ul li {
         width: 8rem;
         text-align: center;
         padding: 11px;
     }
-    ul li:nth-child(1){
+    ul li:nth-child(1) {
         color: var(--orange-o);
     }
-    
-    .table{
+    .table {
         font-size: 20px;
     }
-    .table ul{
+    .table ul {
         margin-left: -40px;
     }
-    ul li{
+    ul li {
         list-style: none;
     }
-    ul li{
+    ul li {
         display: inline-block;
         color: #8f8f8f;
     }
@@ -849,19 +875,19 @@ footer h3 span {
     ul li:nth-child(3) {
         font-size: 20px;
     }
-    .content .description{
+    .content .description {
         margin: 0px 15px;
         height: 100%;
     }
-    .description h2{
+    .description h2 {
         font-weight: bold;
         margin: 50px 0px;
     }
-    .description p{
+    .description p {
         line-height: 28px;
         margin: 32px 0px;
     }
-    .content .description button{
+    .content .description button {
         font-weight: bolder;
         color: white;
         border: none;
@@ -870,7 +896,6 @@ footer h3 span {
         margin: 0px 10px;
         background-color: var(--green-chase);
     }
-    
     .form {
         padding: 0px 55px;
     }
@@ -910,11 +935,10 @@ footer h3 span {
         margin-bottom: 6rem;
     }
     .information {
-    margin: -18rem 0px;
-    width: 36rem;
+        margin: -18rem 0px;
+        width: 36rem;
     }
     .data .heading i {
-        
         left: 71px;
         position: absolute;
     }
@@ -922,17 +946,17 @@ footer h3 span {
         margin: 70px 60px;
         width: 27%;
     }
-    .data p{
+    .data p {
         text-align: inherit;
         margin: 133px 40px;
         padding-top: 7rem;
         line-height: 27px;
     }
-    .data .funct{
+    .data .funct {
         color: var(--green-chase);
         margin: 16px 40px;
     }
-    .data i{
+    .data i {
         margin: 18px 38px;
     }
     .data h3 {
@@ -943,80 +967,18 @@ footer h3 span {
     footer {
         margin: -117px 0px;
     }
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:992px){
-    nav{
+@media(min-width:992px) {
+    nav {
         justify-content: space-around;
         padding: 0px;
     }
-    nav .sect{
+    nav .sect {
         display: flex;
         align-items: center;
     }
-    nav .sect button{
+    nav .sect button {
         font-size: 12px;
         display: block;
         font-weight: 400;
@@ -1029,115 +991,92 @@ footer h3 span {
         margin: 0px 10px;
         background-color: var(--green-chase);
     }
-    .home{
-        
+    .home {
         padding: 0px 9rem;
     }
     .home .container {
-    width: 50rem;
-    margin: 0rem -13rem;
-    color: white;
-    padding: 170px 10px;
-}
-    .services{
+        width: 50rem;
+        margin: 0rem -13rem;
+        color: white;
+        padding: 170px 10px;
+    }
+    .services {
         width: 57rem;
         margin-left: 0rem;
-        
     }
-    .services .container{
+    .services .container {
         display: grid;
         grid-template-columns: 55% 55%;
-        
     }
-    .container .box{
+    .container .box {
         margin: 15px 15px;
     }
-    .tec .container{
+    .tec .container {
         padding: 1px 0px;
         display: flex;
     }
-    .tec .container h2{
+    .tec .container h2 {
         text-align: start;
         font-size: 3rem;
         width: 50%;
         color: white;
     }
-    .tec .container h2{
-        
-    }
-    .tec .container .s1{
+    .tec .container h2 {}
+    .tec .container .s1 {
         color: var(--green-chase);
     }
-    .about{
-
-    }
-    .about h3{
-        
-    }
-    .about h2{
-        
-    }
-    .about .sections{
-        
-    }
-    .sections ul{
-        
-        list-style: none;
-
-    }
-    .sections ul li{
-        display: inline-block;
-    }
-    ul li:nth-child(1){
-        
-    }
-    .table{
-    
-    }
-    .table ul{
+    .about {}
+    .about h3 {}
+    .about h2 {}
+    .about .sections {}
+    .sections ul {
         list-style: none;
     }
-    ul li{
+    .sections ul li {
         display: inline-block;
-        
     }
-    
-    .content .description{
-        
+    ul li:nth-child(1) {}
+    .table {}
+    .table ul {
+        list-style: none;
     }
-    .action_form{
+    ul li {
+        display: inline-block;
+    }
+    .content .description {}
+    .action_form {
         display: flex;
         align-items: center;
     }
-    .action_form img{
+    .action_form img {
         display: block;
         width: 37rem;
         margin: 0px 171px;
         height: 37rem;
     }
-    .home .container{
+    .home .container {
         color: white;
         padding: 170px 10px;
     }
-    .container h2{
+    .container h2 {
         font-size: 4rem;
         text-align: center;
     }
-    .container h2 span{
+    .container h2 span {
         color: var(--orange-o);
     }
-    .container .bar{
+    .container .bar {
         border-bottom: 1px solid;
         margin: 0px 8rem;
         margin-top: -41px;
     }
-    .container .btn{
+    .container .btn {
         font-size: 18px;
         margin: 48px 0px;
         display: flex;
         justify-content: center;
     }
-    .btn button{
+    .btn button {
         font-weight: bolder;
         color: white;
         border: none;
@@ -1145,105 +1084,103 @@ footer h3 span {
         border-radius: 5px;
         margin: 0px 10px;
     }
-    .btn button:nth-child(1){
+    .btn button:nth-child(1) {
         height: 45px;
     }
-    .btn button{
+    .btn button {
         height: 45px;
     }
-    .box .srv{
+    .box .srv {
         display: flex;
         font-size: 8rem;
-    } 
-    .srv .iconify{
+    }
+    .srv .iconify {
         color: var(--green-chase);
-    } 
-    .srv .text{
+    }
+    .srv .text {
         font-size: 22px;
         margin-left: 13px;
-    }   
-    
-    .text .p{
+    }
+    .text .p {
         font-size: 44px;
         margin: -17px 0px;
-    } 
-    .tec{
+    }
+    .tec {
         background-image: url('../img/heading-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .tec .container{
+    .tec .container {
         align-items: end;
         padding: 50px 0px;
     }
-    .tec .container h2{
+    .tec .container h2 {
         font-size: 36px;
         font-weight: 700;
         margin-left: 2rem;
     }
-    .tec .container .s1{
+    .tec .container .s1 {
         color: var(--green-chase);
     }
-    .about h3{
+    .about h3 {
         padding-top: 80px;
         text-align: center;
         font-size: 28px;
         color: var(--orange-o);
     }
-    .about .p{
+    .about .p {
         text-align: center;
         font-size: 44px;
         margin: -17px 0px;
     }
-    .about .sections{
+    .about .sections {
         margin-left: -27px;
     }
-    .sections ul{
+    .sections ul {
         list-style: none;
         font-size: 25px;
         margin-top: 80px;
         list-style: none;
     }
-    .sections ul li{
+    .sections ul li {
         display: inline-block;
         border: none;
         padding: 15px 15px;
         box-shadow: 1px 1px 9px 3px #b5b5b5;
         margin: 0px 3px;
     }
-    ul li:nth-child(1){
+    ul li:nth-child(1) {
         color: var(--orange-o);
     }
-    
-    .table{
+    .table {
         font-size: 20px;
     }
-    .table ul{
+    .table ul {
         margin-left: -40px;
     }
-    ul li{
+    ul li {
         list-style: none;
     }
-    ul li{
+    ul li {
         display: inline-block;
         color: #8f8f8f;
     }
-    li li:nth-child(1){
+    li li:nth-child(1) {
         color: var(--green-chase);
     }
-    .content .description{
+    .content .description {
         margin: 0px 15px;
         height: 100%;
     }
-    .description h2{
+    .description h2 {
         font-weight: bold;
         margin: 50px 0px;
     }
-    .description p{
+    .description p {
         line-height: 28px;
         margin: 32px 0px;
     }
-    .content .description button{
+    .content .description button {
         font-weight: bolder;
         color: white;
         border: none;
@@ -1252,37 +1189,38 @@ footer h3 span {
         margin: 0px 10px;
         background-color: var(--green-chase);
     }
-    
-    .form{
+    .form {
         background-image: url('../img/calculator-bg.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
     }
-    .form h4{
+    .form h4 {
         text-align: center;
         font-size: 16px;
     }
-    .form h2{
+    .form h2 {
         text-align: center;
         font-size: 36px;
     }
-    .action_form img{
+    .action_form img {
         display: none;
     }
-    .action_form form label{
+    .action_form form label {
         font-size: 14px;
         font-weight: 400;
     }
-    form input{
+    form input {
         width: 122%;
         height: 20px;
         margin: 10px 18px;
     }
-    form input, select, option{
+    form input,
+    select,
+    option {
         width: -webkit-fill-available;
     }
-    form button{
+    form button {
         margin-left: 1rem;
         font-weight: 200;
         font-size: 20px;
@@ -1307,24 +1245,24 @@ footer h3 span {
         margin: 0px 0px;
     }
     .data .funct {
-    color: var(--green-chase);
-    margin: 40px 40px;
+        color: var(--green-chase);
+        margin: 40px 40px;
     }
-    .data .heading{
+    .data .heading {
         display: block;
     }
     .data .heading i {
-    left: 11rem;
+        left: 11rem;
     }
     .data .information {
-    margin: -2rem 0px;
-    width: 37rem;
+        margin: -2rem 0px;
+        width: 37rem;
     }
     .data p {
-    text-align: inherit;
-    margin: 100px 40px;
-    padding-top: 7rem;
-    line-height: 27px;
+        text-align: inherit;
+        margin: 100px 40px;
+        padding-top: 7rem;
+        line-height: 27px;
     }
     .data .iconify {
         color: white;
@@ -1348,375 +1286,271 @@ footer h3 span {
     footer h3 span {
         color: var(--orange-o);
     }
-
-
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    @media(min-width:1200px){
-        .container h2{
-            text-align: start;
-            margin-left: -3rem;
-            width: 125%;
-
-        }
-        .container h2 span{
-            color: var(--orange-o);
-        }
-        .container .bar {
-            margin: 0px -40px;
-        }
-        .container .btn{
-            margin-left: -18rem;
-
-        }
-        .btn button{
-            font-weight: bolder;
-            color: white;
-            border: none;
-            padding: 11px 24px;
-            border-radius: 5px;
-            margin: 0px 10px;
-        }
-        .btn button:nth-child(1){
-            height: 100%;
-            width: 12rem;
-        }
-        .btn button{
-            height: 100%;
-            width: 10rem;
-        }
-        .services{
-            width: 57rem;
-            margin-left: 6rem;
-            
-        }
-        .services .container{
-            display: grid;
-            grid-template-columns: 59% 59%;
-            
-        }
-        .container .box{
-            margin: 14px 12px;
-        } 
-        .box .srv{
-            display: flex;
-            font-size: 8rem;
-        } 
-        .srv .iconify{
-            color: var(--green-chase);
-        } 
-        .srv .text{
-            font-size: 22px;
-            margin-left: 13px;
-        }   
-        .text h3{
-            font-size: 22px;
-            font-weight: 600;
-        } 
-        .text p{
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 24px;
-        } 
-        .tec{
-            background-image: url('../img/heading-bg.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        .tec .container{
-            padding: 15px 140px;
-        }
-        .tec .container h2{
-            font-size: 33px;
-            width: 100%;
-            margin-left: -49px;
-        }
-        .tec .container .s1{
-            color: var(--green-chase);
-        }
-        .about h3{
-            padding-top: 80px;
-            text-align: center;
-            font-size: 28px;
-            color: var(--orange-o);
-        }
-        .about .p{
-            text-align: center;
-            font-size: 44px;
-            margin: -17px 0px;
-        }
-        .about .sections{
-            margin-left: -27px;
-        }
-        .sections ul{
-            list-style: none;
-            font-size: 25px;
-            margin-top: 80px;
-            list-style: none;
-        }
-        .sections ul li{
-            display: inline-block;
-            border: none;
-            padding: 15px 15px;
-            box-shadow: 1px 1px 9px 3px #b5b5b5;
-            margin: 0px 3px;
-        }
-        ul li:nth-child(1){
-            color: var(--orange-o);
-        }
-        
-        .table{
-            font-size: 20px;
-        }
-        .table ul{
-            margin-left: -40px;
-        }
-        ul li{
-            list-style: none;
-        }
-        ul li{
-            display: inline-block;
-            color: #8f8f8f;
-        }
-        li li:nth-child(1){
-            color: var(--green-chase);
-        }
-        .content .description{
-            margin: 0px 15px;
-            height: 100%;
-        }
-        .description h2{
-            font-weight: bold;
-            margin: 50px 0px;
-        }
-        .description p{
-            line-height: 28px;
-            margin: 32px 0px;
-        }
-        .content .description button{
-            font-weight: bolder;
-            color: white;
-            border: none;
-            padding: 11px 24px;
-            border-radius: 5px;
-            margin: 0px 10px;
-            background-color: var(--green-chase);
-        }
-        
-        .form{
-            background-image: url('../img/calculator-bg.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 100%;
-        }
-        .form h4{
-            color: var(--orange-o);
-            text-align: center;
-            padding-top: 49px;
-            font-size: 32px;
-        }
-        .form h2{
-            color: white;
-            text-align: center;
-            font-size: 48px;
-        }
-        .action_form img{
-            display: block;
-            width: 38rem;
-            margin: 0px 49px;
-        }
-        .action_form form label{
-            color: white;
-            font-size: 25px;
-            margin: 0px 20px;
-            
-        }
-        form input, select, option{
-            width: -webkit-fill-available;
-            margin: 28px 15px;
-            height: 43px;
-            padding: 7px 5px;
-            outline: none;
-            border: none;
-            color: white;
-            background-color: #5b5b6f;
-            border-radius: 8px;
-        }
-        form button{
-            font-weight: bolder;
-            color: white;
-            border: none;
-            padding: 11px 24px;
-            border-radius: 5px;
-            margin: 0px 10px;
-            background-color:var(--orange-o);
-            font-size: 28px;
-            margin-top: 3px;
-            margin-bottom: 30px;
-        }
-        
-        .profil {
-            margin: 169px 37px;
-        }
-        .profil .slider{
-            display: grid;
-            grid-template-columns: 100% 100% 80%;
-            width: 90%;
-            overflow: hidden;
-        }
-
-        .profil .data {
+@media(min-width:1200px) {
+    .home .container {
+        padding: 170px 13rem;
+    }
+    .container h2 {
+        text-align: start;
+        margin-left: -3rem;
+        width: 125%;
+    }
+    .container h2 span {
+        color: var(--orange-o);
+    }
+    .container .bar {
+        margin: 0px -40px;
+    }
+    .container .btn {
+        margin-left: -18rem;
+    }
+    .btn button {
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+    }
+    .btn button:nth-child(1) {
+        height: 100%;
+        width: 12rem;
+    }
+    .btn button {
+        height: 100%;
+        width: 10rem;
+    }
+    .services {
+        width: 57rem;
+        margin-left: 6rem;
+    }
+    .services .container {
+        display: grid;
+        grid-template-columns: 59% 59%;
+    }
+    .container .box {
+        margin: 14px 12px;
+    }
+    .box .srv {
+        display: flex;
+        font-size: 8rem;
+    }
+    .srv .iconify {
+        color: var(--green-chase);
+    }
+    .srv .text {
+        font-size: 22px;
+        margin-left: 13px;
+    }
+    .text h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .tec {
+        background-image: url('../img/heading-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .tec .container {
+        padding: 15px 140px;
+    }
+    .tec .container h2 {
+        font-size: 33px;
+        width: 100%;
+        margin-left: -49px;
+    }
+    .tec .container .s1 {
+        color: var(--green-chase);
+    }
+    .about h3 {
+        padding-top: 80px;
+        text-align: center;
+        font-size: 28px;
+        color: var(--orange-o);
+    }
+    .about .p {
+        text-align: center;
+        font-size: 44px;
+        margin: -17px 0px;
+    }
+    .about .sections {
+        margin-left: -27px;
+    }
+    .sections ul {
+        list-style: none;
+        font-size: 25px;
+        margin-top: 80px;
+        list-style: none;
+    }
+    .sections ul li {
+        display: inline-block;
+        border: none;
+        padding: 15px 15px;
+        box-shadow: 1px 1px 9px 3px #b5b5b5;
+        margin: 0px 3px;
+    }
+    ul li:nth-child(1) {
+        color: var(--orange-o);
+    }
+    .table {
+        font-size: 20px;
+    }
+    .table ul {
+        margin-left: -40px;
+    }
+    ul li {
+        list-style: none;
+    }
+    ul li {
+        display: inline-block;
+        color: #8f8f8f;
+    }
+    li li:nth-child(1) {
+        color: var(--green-chase);
+    }
+    .content .description {
+        margin: 0px 15px;
+        height: 100%;
+    }
+    .description h2 {
+        font-weight: bold;
+        margin: 50px 0px;
+    }
+    .description p {
+        line-height: 28px;
+        margin: 32px 0px;
+    }
+    .content .description button {
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        background-color: var(--green-chase);
+    }
+    .form {
+        background-image: url('../img/calculator-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+    .form h4 {
+        color: var(--orange-o);
+        text-align: center;
+        padding-top: 49px;
+        font-size: 32px;
+    }
+    .form h2 {
+        color: white;
+        text-align: center;
+        font-size: 48px;
+    }
+    .action_form img {
+        display: block;
+        width: 38rem;
+        margin: 0px 49px;
+    }
+    .action_form form label {
+        color: white;
+        font-size: 25px;
+        margin: 0px 20px;
+    }
+    form input,
+    select,
+    option {
+        width: -webkit-fill-available;
+        margin: 28px 15px;
+        height: 43px;
+        padding: 7px 5px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: #5b5b6f;
+        border-radius: 8px;
+    }
+    form button {
+        font-weight: bolder;
+        color: white;
+        border: none;
+        padding: 11px 24px;
+        border-radius: 5px;
+        margin: 0px 10px;
+        background-color: var(--orange-o);
+        font-size: 28px;
+        margin-top: 3px;
+        margin-bottom: 30px;
+    }
+    .profil {
+        margin: 169px 37px;
+    }
+    .profil .slider {
+        display: grid;
+        grid-template-columns: 100% 100% 80%;
+        width: 90%;
+        overflow: hidden;
+    }
+    .profil .data {
         height: 26rem;
         width: 50rem;
-        }
-        /*.data .information {
+    }
+    /*.data .information {
         margin: -2rem 0px;
         width: 39rem;
         }*/
-        .profil h3 {
-            text-align: center;
-            color: var(--orange-o);
-            font-weight: bold;
-            font-size: 20px;
-        }
-        .profil h2 {
-            text-align: center;
-            font-weight: bold;
-            font-size: 2.5rem;
-        }
-        .data img {
-            width: 180px;
-        }
-        .data .iconify {
-            font-size: 30px;
-        }
-        .data .heading i {
-            left: 16rem;
-        }
-        .data .heading img {
-            width: 200px;
-        }
-        .data h3 {
-            text-align: start;
-            color: var(--orange-o);
-            margin-left: 42px;
-            margin-top: -100px;
-        }
-        .data p {
-            text-align: start;
-            margin-top: 6rem;
-            font-size: 16px;
-            line-height: 26px;
-        }
-        footer {
-            background-color: var(--dark-blue);
-            color: white;
-            padding: 37px 15px;
-        }
-        footer h3 {
-            text-align: center;
-            margin: 13px 11px;
-            line-height: 1.5;
-        }
-        footer h3 span {
-            color: var(--orange-o);
-        }
+    .profil h3 {
+        text-align: center;
+        color: var(--orange-o);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .profil h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    .data img {
+        width: 180px;
+    }
+    .data .iconify {
+        font-size: 30px;
+    }
+    .data .heading i {
+        left: 16rem;
+    }
+    .data .heading img {
+        width: 200px;
+    }
+    .data h3 {
+        text-align: start;
+        color: var(--orange-o);
+        margin-left: 42px;
+        margin-top: -100px;
+    }
+    .data p {
+        text-align: start;
+        margin-top: 6rem;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    footer {
+        background-color: var(--dark-blue);
+        color: white;
+        padding: 37px 15px;
+    }
+    footer h3 {
+        text-align: center;
+        margin: 13px 11px;
+        line-height: 1.5;
+    }
+    footer h3 span {
+        color: var(--orange-o);
+    }
 }

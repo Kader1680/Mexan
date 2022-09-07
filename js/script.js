@@ -4,14 +4,14 @@ let sect = document.querySelector('.sect')
 let list = document.querySelector('.list')
 let close = document.querySelector('.close')
 
-window.onload = () =>{
+window.onload = () => {
     sect.classList.remove('list')
 }
 
 
-bar.addEventListener('click', ()=>{
+bar.addEventListener('click', () => {
     sect.classList.add('list')
-    close.onclick = () =>{
+    close.onclick = () => {
         sect.classList.remove('list')
     }
 })
@@ -31,18 +31,14 @@ bar.addEventListener('click', ()=>{
 let span = document.querySelector('.Top')
 let topblk = document.querySelector('.blk')
 
-window.onscroll = () =>  {
+window.onscroll = () => {
     console.log(this.scrollY)
 
     if (this.scrollY >= 1577) {
         span.classList.add('blk')
     } else {
         span.classList.remove('blk')
-        
+
     }
-    
+
 }
-
-
-
-
